@@ -5,7 +5,7 @@ import json
 import requests
 
 # Constants
-API_KEY = "f4f91815-d83a-4475-87bc-69a5563b11e5"  # Helius API Key
+  # Helius API Key
 WEBHOOK_ID = "10aad75c-0554-4ba8-b82f-43e8e49a75be"  # Replace with your actual webhook ID
 TOKEN_ADDRESS = "8Fza2Fi3gqR44vTSjC3RYfTgbRndCEgrsU21FBjYpump"  # Poope Token Address
 # 8Fza2Fi3gqR44vTSjC3RYfTgbRndCEgrsU21FBjYpump
