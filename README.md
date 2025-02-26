@@ -1,14 +1,44 @@
 # Webhook
-Webhook là một phương thức để một ứng dụng gửi thông báo hoặc dữ liệu đến một ứng dụng khác khi có sự kiện xảy ra. Webhook giúp các hệ thống tương tác với nhau mà không cần phải liên tục kiểm tra (polling) trạng thái của các sự kiện. Dữ liệu thường được gửi qua một HTTP POST request, thường là dưới dạng JSON hoặc XML.
+A webhook is a method for an application to send notifications or data to another application when an event occurs. Webhooks help systems interact with each other without the need to continuously poll for event statuses. Data is usually sent via an HTTP POST request, often in JSON or XML format.
 
 # Helius
-Helius là một nền tảng cung cấp API và công cụ hỗ trợ các nhà phát triển xây dựng và tương tác với blockchain, đặc biệt là blockchain **Solana**. Helius cung cấp các dịch vụ như webhook để nhận thông báo thời gian thực về các sự kiện trong hệ thống blockchain, giúp các ứng dụng tự động xử lý dữ liệu mà không cần phải kiểm tra thường xuyên.
+Helius is a platform that provides APIs and tools to help developers build and interact with blockchains, especially the **Solana** blockchain. Helius offers services such as webhooks to receive real-time notifications about events in the blockchain system, allowing applications to automatically process data without frequent checks.
 
 # Blockchain
-Blockchain là một công nghệ cơ sở dữ liệu phân tán, trong đó các giao dịch được lưu trữ trong các "khối" (blocks) và liên kết với nhau thành một chuỗi (chain). Điều này giúp bảo mật và đảm bảo tính minh bạch, vì dữ liệu không thể bị thay đổi mà không có sự đồng thuận của các thành viên trong mạng lưới.
+Blockchain is a distributed database technology where transactions are stored in "blocks" and linked together in a "chain". This ensures security and transparency, as data cannot be altered without the consensus of the network members.
 
 # Solana (Sol)
-**Solana** là một blockchain nhanh và chi phí thấp, được thiết kế để hỗ trợ các giao dịch và ứng dụng phi tập trung (dApps). Nó sử dụng cơ chế **Proof of History (PoH)** kết hợp với **Proof of Stake (PoS)**, giúp tăng tốc độ giao dịch và giảm chi phí. Solana là nền tảng phổ biến cho các ứng dụng tài chính phi tập trung (DeFi) và NFT nhờ vào tốc độ và hiệu suất vượt trội.
+**Solana** is a fast and low-cost blockchain designed to support decentralized transactions and applications (dApps). It uses a combination of **Proof of History (PoH)** and **Proof of Stake (PoS)** mechanisms, which increase transaction speed and reduce costs. Solana is a popular platform for decentralized finance (DeFi) applications and NFTs due to its superior speed and performance.
 
-# 
-Helius cung cấp webhook, listen xong trả về transaction -> price, monitor in giá giao dịch
+## Task
+Helius provides **Webhook**.
+Listens to the **Webhook** notifications.
+Extracts transaction details.
+Fetches the price of the **Token** token.
+Monitors the events and prints the token price.
+
+## Token
+🔹 **Token**: Poope 
+🔹 **CA**: 8Fza2Fi3gqR44vTSjC3RYfTgbRndCEgrsU21FBjYpump 
+🔹 **Ticker**: $Poope
+
+##
+Webhook ID: 10aad75c-0554-4ba8-b82f-43e8e49a75be
+API Key: ""
+RPC URL: https://mainnet.helius-rpc.com/?api-key=f4f91815-d83a-4475-87bc-69a5563b11e5
+Standard Websocket URL: wss://mainnet.helius-rpc.com/?api-key=f4f91815-d83a-4475-87bc-69a5563b11e5
+Shared Eclipse URL: https://eclipse.helius-rpc.com/
+
+## Tech
+Python, FastAPI
+
+## REST API
+
+## ngrok
+pip install pyngrok
+ngrok http 8000 (after run iuvicorn app -> open cmd)
+�  Route traffic by anything: https://ngrok.com/r/iep
+Session   Status online
+Account   Phạm Đăng Khôi(Plan:Free)                                                                                                                                             
+Version   3.20.0                                                                                                                                                                  Region    United States (us)  
+-> Webhook URL

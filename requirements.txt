@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+requests
+pyngrok
+logging
+websockets
+asyncio
+httpx
+json
