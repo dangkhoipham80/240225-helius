@@ -42,3 +42,5 @@ Session   Status online
 Account   Phạm Đăng Khôi(Plan:Free)                                                                                                                                             
 Version   3.20.0                                                                                                                                                                  Region    United States (us)  
 -> Webhook URL
+
+28/2/2025 -> xong task get_prices_by_list_tokens by jupiter API bên samuraixbt
